@@ -1,0 +1,11 @@
+
+.image-text {
+    display:flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+img {
+    border: 5px solid #b12525
+}
