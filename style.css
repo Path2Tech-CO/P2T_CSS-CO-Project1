@@ -2,7 +2,10 @@
     display:flexbox;
 }
 
-
+.sidebar {
+    background-color: dimgray;
+    padding: 10px;
+}
 
 .image-text {
     display:flex;
