@@ -1,10 +1,17 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 .container {
-    display:flexbox;
+    display: flex;
+
 }
 
 .sidebar {
     background-color: dimgray;
     padding: 10px;
+    
 }
 
 .image-text {
@@ -15,17 +22,24 @@
 
 
 img {
-    border: 5px solid #b12525
+    border: 2px solid 
+
 }
 
 .composenw {
     background-color: rgb(181, 195, 222);
     font-weight: bold;
+    font-size: medium;
     align-items: center;
-    width: 100px;
+    width: 400px;
     padding: 10px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     cursor: pointer;
    
+}
+
+.folders {
+    list-style: none;
+    padding: 0;
 }
