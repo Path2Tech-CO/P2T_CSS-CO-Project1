@@ -19,10 +19,15 @@ img {
 }
 
 .composenw {
-    background-color: cornflowerblue;
-    border: black;
+    background-color: rgb(181, 195, 222);
     font-weight: bold;
     align-items: center;
-    padding: 5px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    
    
 }
