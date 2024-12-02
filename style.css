@@ -1,3 +1,8 @@
+.container {
+    display:flexbox;
+}
+
+
 
 .image-text {
     display:flex;
@@ -8,4 +13,13 @@
 
 img {
     border: 5px solid #b12525
+}
+
+.composenw {
+    background-color: cornflowerblue;
+    border: black;
+    font-weight: bold;
+    align-items: center;
+    padding: 5px;
+   
 }
