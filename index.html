@@ -3,57 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
   <title>CSS Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<!-- /*Create Fixed Sidebar: Containing the User Welcome "Personalized Greeting, A Compose Button (Functional) & A Folder List"*/ -->
 <body>
   <div class="container">
     <div class="sidebar">
-  <div class="image-text">
-   <img src="https://hatchstudios.com/wp-content/uploads/bimbo_bimbo_bear_poses_image06.jpg" alt="BimboBearPoses"
-    width="65"
-    height="75">
-  
-  <p><b>Welcome Back, Bimbo Bear!</b>
-  </br>For a seamless e-mail experience
-  </br>select the navigation bar below</p>
-</div>
-<button class="composenw">Compose</button>
-<ul class="folders">
-  <li>Inbox <strong>(300,781)</strong></li>
-  <li>Tagged</li>
-  <li>Important</li>
-  <li>Sent Mail</li>
-  <li>Drafts <i>(3)</i></li>
-  <li>Trash</li>
-</ul>
+      <div class="user-section">
+        <div class="user-icon"></div>
+        <p>Welcome, Brock!</p>
+      </div>
+      <button class="compose-btn">Compose</button>
+      <ul class="folders">
+        <li>Inbox <span>(341)</span></li>
+        <li>Tagged</li>
+        <li>Important</li>
+        <li>Sent Mail</li>
+        <li>Drafts</li>
+        <li>Trash</li>
+      </ul>
+    </div>
 
-<div class="live-emails">
-<input type="text" placeholder="Search emails..." class="searchbar">
-<div class="live-emails">
-<p><b>Linkedin</b></p>
-<p>You have a new connection request</p>
-</div>
-<div class="live-emails">
-<p><b>Michael Scott Daily Quote</b></p>
-<p>I'm optimistic because everyday I get a...</p>
-</div>
-<div class="live-emails"></div>
-<p><b>Lemar Software</b></p>
-<p>Learn how you can give us your money by</p>
-</div>
-</div>
-<p><b>To:</b> taylor@lemarsoftware.io</p>
-<p><b>From:</b> re-reply@michaelscott.com</p>
-<h2>Michael Scott Daily Quotes</h2>
-<p>"Friends joke with one another." Hey, your momma's dead. "That's what friends do."</p>
-<p>"It's a good thing Russia doesn't exist anymore."</p>
-<p>"You cheated on me? When I specifically asked you to not to?"</p>
-<p>"It just seems awfully mean. But sometimes, the ends justify the mean."</p>
-<p>"Reverse psychology is an awesome tool. I don't know if you guys know about it but basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm."</p>
-<textarea placeholder="Enter message..."></textarea>
-<br>
-<button class="send">Send Email</button>
+    <div class="content">
+      <div class="search">
+        <input type="text" placeholder="Search For Emails">
+      </div>
+
+      <div class="email-list">
+        <div class="email-item">
+          <div class="email-header">
+            <p class="email-title">LinkedIn</p>
+            <span class="email-time">02:45 PM</span>
+          </div>
+          <p class="email-desc">You have a new connection Request</p>
+        </div>
+        <div class="email-item">
+          <div class="email-header">
+            <p class="email-title">Michael Scott Daily Quote</p>
+            <span class="email-time">Jul 3, 2020</span>
+          </div>
+          <p class="email-desc">I'm optimistic because everyday I get a...</p>
+        </div>
+        <div class="email-item">
+          <div class="email-header">
+            <p class="email-title">Lemar Software</p>
+            <span class="email-time">Feb 9, 2020</span>
+          </div>
+          <p class="email-desc">Learn how you can give us money by...</p>
+        </div>
+      </div>
+
+      <div class="email-view">
+        <p><strong>To:</strong> taylor@lamarsoftware.io</p>
+        <p><strong>From:</strong> re-reply@theofficenbc.com</p>
+        <h2>Michael Scott Daily Quotes</h2>
+        <p>“Friends joke with one another. 'Hey, your momma's dead. That's what friends do.”</p>
+        <p>“It's a good thing Russia doesn't exist anymore.”</p>
+        <p>“You cheated on me? When I specifically asked you not to?”</p>
+        <p>“It just seems awfully mean. But sometimes, the ends justify the mean.”</p>
+        <p>“Reverse psychology is an awesome tool. I don't know if you guys know about it, but basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm.”</p>
+        <textarea placeholder="Enter Message..." class="message-box"></textarea>
+        <button class="send-btn">Send Email</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
